@@ -1,7 +1,8 @@
 section.header {
 	background: url("img/Header/hello_its_me.jpg");
 	min-height: 100%;
-	text-align: center;
+	text-align: right;
+
 }
 
 h1.header {
@@ -239,3 +240,232 @@ input.footer-second-div-input{
 
 button.footer-second-div-button{
 }
+
+
+/* Page 2 by Marichka  */
+
+section five .body {
+ background-image: url("skyscraper.png");
+}
+
+h2 {
+  font-size: 300%;
+    height: 100px;
+    line-height: 100px;
+    text-align: central;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+ul {
+  list-style-image: url( );
+}
+
+li {
+    list-style-type: square;
+}
+
+a.button-header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #e7e7e7;
+    border-radius: 35%;
+}
+
+a.button-header:hover, a.button-header:active {
+    background-color: #e7e7e7;
+}
+
+ul {
+  list-style-image: url( );
+}
+
+li {
+    list-style-type: square;
+}
+
+a.button-header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #e7e7e7;
+    border-radius: 35%;
+}
+
+a.button-header:hover, a.button-header:active {
+    background-color: #e7e7e7;
+}
+ul {
+  list-style-image: url( );
+}
+
+li {
+    list-style-type: square;
+}
+
+a.button-header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #e7e7e7;
+    border-radius: 35%;
+}
+
+a.button-header:hover, a.button-header:active {
+    background-color: #e7e7e7;
+}
+
+section six .body {
+  background-color: white;
+} 
+
+img { src="Logo.png" class="w3-display-left w3-container" alt="Logo"
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+/* section seven */
+
+.plan_item {
+  text-align: center;
+}
+
+.plan_item h3 {
+  font-size: 30px;
+  
+}
+
+.text-center {
+  text-align: center;
+  font: Verdana;
+  font-size: 20px;
+}
+
+.plans {
+  background-image: url("../img/Pricing/skyscraper.png");
+  background-size: 100%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul {
+    list-style-type: square;
+}
+
+section eight h2 {
+  font-size: 300%;
+    height: 100px;
+    line-height: 100px;
+    text-align: central;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+ul {
+  list-style-image: url( );
+}
+
+li {
+    list-style-type: square;
+}
+  
+ul {
+  list-style-image: url( );
+}
+
+li {
+    list-style-type: square;
+}
+
+ul {
+  list-style-image: url( );
+}
+
+li {
+    list-style-type: square;
+}
+
+section nine
+
+img {src="1.png" class="w3-display-topleft w3-container" alt="Helsiniki"
+}
+
+img {src="2.png" class="w3-display-left w3-container" alt="Copenhagen"
+}
+
+img {src="3.png" class="w3-display-left w3-container" alt="The Scandinavian Furniture"
+}
+
+img {src="4.png" class="w3-display-left w3-container" alt="Helsinki"
+}
+
+img {src="5.png" class="w3-display-left w3-container" alt="Eriksson"
+}
+
+img {src="6.png" class="w3-display-left w3-container" alt="Helsinki"
+}
+
+img {src="7.png" class="w3-display-left w3-container" alt="Helsinki"
+}
+
+img {src="8.png" class="w3-display-left w3-container" alt="GoldenGrid"
+}
+
+img {src="9.png" class="w3-display-left w3-container" alt="Greensboro"
+}
+
+img {src="10.png" class="w3-display-left w3-container" alt="Broklyn"
+}
+
+
+
+
+   
+
