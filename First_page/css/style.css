@@ -312,12 +312,13 @@ button.footer-second-div-button{
 
 /* Page 2 by Marichka  */
 
-section five .body {
- background-image: url("skyscraper.png");
+section.body {
+ background-image: url("img/Pricing/skyscraper.png");
+ background-size: cover;
 }
 
 h2 {
-  font-size: 300%;
+    font-size: 300%;
     height: 100px;
     line-height: 100px;
     text-align: central;
@@ -328,18 +329,29 @@ h2 {
 p {
   font-family: verdana;
   font-size: 20px;
+  text-align: central;
+  font-weight: regular ;
 }
 
 ul {
-  list-style-image: url( );
+  list-style-image: url("img/Slider/Logo.png");
+
 }
 
-li {
-    list-style-type: square;
-}
+ul img {
+  padding: 5px;
+  width: 150px;
+  }
+
+column {
+    float: left;
+    width: 33.33%;
+    }
+
+
 
 a.button-header {
-    background-color: white;
+    background-color: #6d45f6;
     color: black;
     padding: 20px;
     text-align: left;
@@ -348,64 +360,13 @@ a.button-header {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border: 2px solid #e7e7e7;
+    border: 2px solid #6d45f6;
     border-radius: 35%;
 }
 
 a.button-header:hover, a.button-header:active {
-    background-color: #e7e7e7;
-}
-
-ul {
-  list-style-image: url( );
-}
-
-li {
-    list-style-type: square;
-}
-
-a.button-header {
     background-color: white;
-    color: black;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: 2px solid #e7e7e7;
-    border-radius: 35%;
-}
-
-a.button-header:hover, a.button-header:active {
-    background-color: #e7e7e7;
-}
-ul {
-  list-style-image: url( );
-}
-
-li {
-    list-style-type: square;
-}
-
-a.button-header {
-    background-color: white;
-    color: black;
-    padding: 20px;
-    text-align: right;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: 2px solid #e7e7e7;
-    border-radius: 35%;
-}
-
-a.button-header:hover, a.button-header:active {
-    background-color: #e7e7e7;
-}
+}    
 
 section six .body {
   background-color: white;
