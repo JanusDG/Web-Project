@@ -1,0 +1,166 @@
+section.header {
+	background: url("img/Header/hello_its_me.jpg");
+	min-height: 100%;
+	text-align: center;
+}
+
+h1.header {
+	font-size: 500%;
+	height: 100px;
+  	line-height: 100px;
+  	font-weight: bold;
+  	color: black;
+}
+
+p.header {
+	font-size: 100%;
+	height: 100px;
+  	font-weight: normal;
+  	color: black;
+}
+
+a.button-header {
+	background-color: white;
+  	color: black;
+  	padding: 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border: 2px solid #e7e7e7;
+  	border-radius: 35%;
+}
+
+a.button-header:hover, a.button-header:active {
+	background-color: #e7e7e7;
+}
+
+div.second-section-left {
+	position: absolute;
+  	left: auto;
+  	width: 500px;
+  	height: 500px;
+}
+
+h2.second-section-h2 {
+	font-size: 300%;
+	height: 100px;
+  	line-height: 100px;
+  	text-align: left;
+  	font-weight: bold;
+  	color: black;
+}
+
+p.second-section-p {
+	font-size: 100%;
+	height: 100px;
+  	font-weight: normal;
+  	color: black;
+}
+
+button.second-section-button {
+	background-color: white;
+  	color: black;
+  	padding: 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border: 2px solid #e7e7e7;
+  	border-radius: 35%;
+}
+
+button.second-section-button:hover, button.second-section-button:active {
+	background-color: #e7e7e7;
+}
+
+div.second-section-right {
+	/*position: absolute;
+  	left: 150px;*/
+}
+
+img.cesis-intro {
+	/*position: absolute;
+  	top: 8px;
+  	right: 16px;
+  	font-size: 18px;*/
+  	float: right;
+  	padding: 55px;
+  	width: 500px;
+}
+
+div.third-section-left {
+
+}
+
+img.intro-video{
+
+}
+
+div.third-section-right {
+
+}
+
+h2.third-section-h2 {
+
+}
+
+p.third-section-p {
+
+}
+
+button.third-section-button {
+
+}
+
+img.building {
+
+}
+
+h2.articles-first-h2 {
+
+}
+
+h2.articles-second-h2 {
+
+}
+
+img.tesla {
+	
+}
+
+img.camera {
+
+}
+
+img.gates {
+
+}
+
+img.leaves {
+
+}
+
+img.setup {
+
+}
+
+img.peach {
+
+}
+
+img.summit {
+
+}
+
+img.watch {
+
+}
+
+button.articles-button {
+
+}
