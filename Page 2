@@ -41,7 +41,15 @@ a.button-header {
 a.button-header:hover, a.button-header:active {
     background-color: #e7e7e7;
 }
-  
+
+ul {
+  list-style-image: url( );
+}
+
+li {
+    list-style-type: square;
+}
+
 a.button-header {
     background-color: white;
     color: black;
@@ -58,6 +66,13 @@ a.button-header {
 
 a.button-header:hover, a.button-header:active {
     background-color: #e7e7e7;
+}
+ul {
+  list-style-image: url( );
+}
+
+li {
+    list-style-type: square;
 }
 
 a.button-header {
@@ -77,25 +92,6 @@ a.button-header {
 a.button-header:hover, a.button-header:active {
     background-color: #e7e7e7;
 }
-
-ul {
-  list-style-image: url( );
-}
-
-li {
-    list-style-type: square;
-}
-
-ul {
-  list-style-image: url( );
-}
-
-li {
-    list-style-type: square;
-}
-
-button arrow_tail_right.svg
-button arrow_tail_left.svg
 
 section six .body {
   background-color: white;
