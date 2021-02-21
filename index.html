@@ -4,16 +4,21 @@
         <meta charset="utf-8">
         <title>Cesis</title>
         <link href="css/reset.css" rel="stylesheet" type="text/css" >
+
+        <!-- Main CSS -->
         <link href="css/style.css" rel="stylesheet" type="text/css">
+
+        <!-- Fonts -->
+        <link href="css/fonts.css" rel="stylesheet" type="text/css">
     </head>
 
-<body> 
-    <header>
+<body>  
+    <!-- <header>
     <h1> <a>Cesis</a> </h1>
     <nav><a>Section 1</a> <a>Section 2</a> <a>Section 3</a> <a>Section 4</a></nav>
-    </header>
+    </header> -->
     <main>
-        <section class="header">
+        <!-- <section class="header">
             <h1 class="header"> I am Cesis </h1>
             <p class="header"> Let's make your website Great Again!</p>
             <a href="#" class="button-header">View portfolio</a>
@@ -49,89 +54,105 @@
                     numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
                 <button class="third-section-button">About me</button>
             </div>
-        </section>
+        </section> -->
 
-        <section class="fourth-section">
-            <ul><li><button>All</button></li>  <li><button>Web Design</button></li>  <li><button>Interaction</button></li> <li><button>Applications</button></li> <li><button>Branding</button></li> <li><button>Graphic Design</button></li> <li><button>Photography</button></li></ul>
-            <div class="articles">
+        <section class="portfolio">
+            <ul>
+                <li class="portolio-active">
+                    <button>All</button>
+                </li> 
+                <li>
+                    <button>Web Design</button>
+                </li>
+                <li>
+                    <button>Interaction</button>
+                </li>
+                <li>
+                    <button>Applications</button>
+                </li> 
+                <li>
+                    <button>Branding</button>
+                </li>
+                <li>
+                    <button>Graphic Design</button>
+                </li>
+                <li>
+                    <button>Photography</button>
+                </li>
+            </ul>
+            <div class="portfolio-articles grid">
+            <!-- Row 1 -->
+                <article class="grid-item width-46-percent height-50-vw">
+                    <a href="#" class="camera">
+                        <h1> Photography </h1>
+                        <h2> Creative Design </h2>
+                    </a>
+                </article>
 
-            <article>
-                <img src="img/Portfolio/building.png" class="building"
-                alt="building">
-                <a>
-                    <h2 class="articles-first-h2"> Photography </h2>
-                    <h2 class="articles-second-h2"> Creative Design </h2>
-                </a>
-            </article>
+                <article class="grid-item width-46-percent height-24-vw">
+                    <a href="#" class="leaves">
+                        <h1> Interaction </h1>
+                        <h2> Cesis Fashion </h2>
+                    </a>
+                </article>
 
-            <article>
-                <img src="img/Portfolio/tesla.png" class="tesla"
-                alt="tesla">
-                <a>
-                    <h2 class="articles-first-h2"> Interaction </h2>
-                    <h2 class="articles-second-h2"> Cesis Fashion </h2>
-                </a>
-            </article>
+                <article class="grid-item width-46-percent height-24-vw">
+                    <a href="#" class="watch">
+                        <h1> Photography </h1>
+                        <h2> Canon Microless Pack </h2>
+                    </a>
+                </article>
+            <!-- END OF Row 1 -->
+            <!-- Row 2 -->
+                <article class="grid-item  width-23-percent height-50-vw">
+                    <a href="#" class="peach">
+                        <h1> Photography </h1>
+                        <h2> Crazy Fashion </h2>
+                    </a>
+                </article>
 
-            <article>
-                <img src="img/Portfolio/camera.png" class="camera"alt="camera">
-                <a>
-                    <h2 class="articles-first-h2"> Photography </h2>
-                    <h2 class="articles-second-h2"> Canon Microless Pack </h2>
-                </a>
-            </article>
+                <article class="grid-item  width-46-percent height-50-vw">
+                    <a href="#" class="setup">
+                        <h1> Branding </h1>
+                        <h2> North Oxford Logo Design </h2>
+                    </a>
+                </article>
 
-            <article>
-                <img src="img/Portfolio/gates.png" class="gates" alt="gates">
-                <a>
-                    <h2 class="articles-first-h2"> Photography </h2>
-                    <h2 class="articles-second-h2"> Crazy Fashion </h2>
-                </a>
-            </article>
-            <img src="img/Portfolio/leaves.png"
-            class="leaves" alt="leaves">
-                <a>
-                    <h2 class="articles-first-h2"> Branding </h2>
-                    <h2 class="articles-second-h2"> North Oxford Logo Design </h2>
-                </a>
-            </article>
+                <article class="grid-item  width-23-percent height-24-vw">
+                    <a href="#" class="building">
+                        <h1> Web Design </h1>
+                        <h2> Cesis Fashion </h2>
+                    </a>
+                </article>
 
-            <article>
-                <img src="img/Portfolio/peach.png" class="peach" alt="peach">
-                <a>
-                    <h2 class="articles-first-h2"> Web Design </h2>
-                    <h2 class="articles-second-h2"> Cesis Fashion </h2>
-                </a>
-            </article>
+                <article class="grid-item  width-23-percent height-24-vw">
+                    <a href="#" class="tesla">
+                        <h1> Branding </h1>
+                        <h2> Kinfolk Brochure </h2>
+                    </a>
+                </article>
+            <!-- END OF Row 2 -->
 
-            <article>
-                <img src="img/Portfolio/setup.png" class="setup" alt="setup">
-                <a>
-                    <h2 class="articles-first-h2"> Branding </h2>
-                    <h2 class="articles-second-h2"> Kinfolk Brochure </h2>
-                </a>
-            </article>
+            <!-- Row 3 -->
+                <article class="grid-item  width-46-percent height-50-vw">
+                    <a href="#" class="gates">
+                        <h1> Branding </h1>
+                        <h2> Don’t Just Stand There </h2>
+                    </a>
+                </article>
 
-            <article>
-                <img src="img/Portfolio/summit.png" class="summit" alt="summit">
-                <a>
-                    <h2 class="articles-first-h2"> Branding </h2>
-                    <h2 class="articles-second-h2"> Don’t Just Stand There </h2>
-                </a>
-            </article>
-
-            <article>
-                <img src="img/Portfolio/watch.png" class="watch" alt="watch">
-                <a>
-                    <h2 class="articles-first-h2"> Applications </h2>
-                    <h2 class="articles-second-h2"> North Oxford Gymnastic </h2>
-                </a>
-            </article>
-        </div>
-        <button class="articles-button">View All</button>
+                <article class="grid-item  width-46-percent height-50-vw">
+                    <a href="#" class="summit">
+                        <h1> Applications </h1>
+                        <h2> North Oxford Gymnastic </h2>
+                    </a>
+                </article>
+            <!-- END OF Row 3 -->
+            </div>
+            <button class="cesis-btn">View All</button>
         </section>
         
-        <section class="plans text-center">
+        <!-- <section class="plans text-center">
             <h2> Se<section class="plans text-center">
             <h2> Select your plans </h2>
             <p> Creating a website has never been this easy with Cesis Theme </p>
@@ -310,7 +331,7 @@
             </ul>
         </section>
                 
-<section>
+        <section>
             <article class="third-part-article">
                 <img src="img/Blog/notes_left.png" class="notes_left" alt="third-part-first-left">
                 <p class="third-part-first-p"><a>Apr 10, 2017</a><a>John Doe</a></p>
@@ -337,9 +358,9 @@
             <h2 class="third-part-second-h2">Let's make your website great again</h2>
             <p class="third-part-second-p">Creating a website has never been this easy with Cesis Theme</p>
             <a>Buy Cesis</a>
-        </section>
+        </section> -->
     </main> 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="footer-first-div">
             <h2 class="footer-first-div-h2"><a> <img src="img/Slider/Logo.png" class="logo" alt="footer-logo"> Cesis Creative</a></h2>
             <p class="footer-first-div-p">© 2015 - 2017 Tranmautritam Team. Cesis Creative demo for Cesis WordPress Theme.</p>
@@ -349,6 +370,20 @@
             <p class="footer-second-div-p">Subscribe Newsletter</p>
             <form class="footer-second-div-form"><input class="footer-second-div-input" type="text"></input><button class="footer-second-div-button" type="submit"> </button></form>
         </div>
-    </footer>
+    </footer> -->
 </body>
+
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Massonry Package for Gallery -->
+<script src="js/masonry.pkgd.min.js"></script>
+<script type="text/javascript">
+    
+$('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.width-23-percent'
+});
+
+</script>
 </html>

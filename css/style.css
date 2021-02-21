@@ -1,3 +1,23 @@
+/* Universal styles */
+
+body {
+  font-family: Poppins-Regular;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:active, a:visited, a:focus,
+button:active, button:visited, button:focus,
+button:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+
 /* INTRO BY Khrystia */
 
 section.header {
@@ -149,95 +169,6 @@ button.second-third-button:hover, button.third-section-button:active {
   background-color: #e7e7e7;
 }
 
-img.building {
-    float: right;
-    padding: 55px;
-    width: 500px;
-}
-
-h2.articles-first-h2 {
-    font-size: 30%;
-    height: 100px;
-    line-height: 100px;
-    text-align: left;
-    color: black;
-}
-
-h2.articles-second-h2 {
-    font-size: 30%;
-    height: 100px;
-    line-height: 100px;
-    text-align: left;
-    font-weight: bold;
-    color: black;
-}
-
-img.tesla {
-	 float: right;
-    padding: 55px;
-    width: 500px;
-}
-
-img.camera {
-    float: left;
-    padding: 55px;
-    width: 500px;
-}
-
-img.gates {
-    float: left;
-    padding: 55px;
-    width: 500px;
-}
-
-img.leaves {
-    float: right;
-    padding: 55px;
-    width: 500px;
-}
-
-img.setup {
-    float: middle;
-    padding: 55px;
-    width: 500px;
-}
-
-img.peach {
-    float: left;
-    padding: 55px;
-    width: 500px;
-}
-
-img.summit {
-    float: left;
-    padding: 55px;
-    width: 500px;
-}
-
-img.watch {
-    float: right;
-    padding: 55px;
-    width: 500px;
-}
-
-button.articles-button {
-    background-color: white;
-    color: black;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: 2px solid #e7e7e7;
-    border-radius: 35%;
-}
-
-button.articles-button:hover, button.articles-button:active {
-  background-color: #e7e7e7;
-}
-
 
 /* Page 2 by Marichka  */
 
@@ -292,5 +223,151 @@ a.button-header:hover, a.button-header:active {
 
 
 /* End of Marichka section */
+
+
+/* PORTFOLIO by Dmytro */
+
+.portfolio {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.portfolio ul li {
+  display: inline-block;
+}
+
+.portfolio ul li button {
+  display: inline-block;
+  border: none;
+  font-family: Poppins-Regular;
+  background-color: white;
+  color: #838788;
+}
+
+.portfolio ul li button:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.portolio-active button {
+  color: black !important;
+}
+
+.portfolio-articles {
+  padding: 2vw;
+}
+
+.portfolio-articles article {
+  margin: 1vw;
+  overflow: hidden;
+}
+
+.portfolio-articles article a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  color: white;
+
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-articles article a:hover {
+  background-color: rgb(211, 211, 211);
+  background-position: center;
+  background-origin: content-box;
+  background-blend-mode: multiply;
+  width: 110%;
+  height: 102%;
+}
+.portfolio-articles article a:hover h2{
+  text-decoration: underline;
+}
+
+.portfolio-articles article a h1 {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+}
+
+.portfolio-articles article a h2 {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  font-size: 30px;
+}
+
+.building {
+  background-image: url("../img/Portfolio/building.png");
+}
+
+.tesla {
+  background-image: url("../img/Portfolio/tesla.jpg");
+}
+
+.camera {
+  background-image: url("../img/Portfolio/camera.png");
+}
+
+.gates {
+  background-image: url("../img/Portfolio/gates.png");
+}
+
+.leaves {
+  background-image: url("../img/Portfolio/leaves.png");
+}
+
+.peach {
+  background-image: url("../img/Portfolio/peach.png");
+}
+
+.setup {
+  background-image: url("../img/Portfolio/setup.png");
+}
+
+.summit {
+  background-image: url("../img/Portfolio/summit.png");
+}
+
+.watch {
+  background-image: url("../img/Portfolio/watch.png");
+}
+
+.width-46-percent {
+  width: 46%;
+}
+
+.width-23-percent {
+  width: 22%;
+}
+
+.height-50-vw {
+  height: 49.99vw;
+}
+
+.height-24-vw {
+  height: 24vw;
+}
+
+.cesis-btn {
+  border-radius: 100px;
+  padding: 10px 40px;
+  font-family: 'Poppins-Regular';
+  background-color: white;
+  border: 1px solid black;
+}
+
+.cesis-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* END OF PORTFOLIO by Dmytro */
 
 
