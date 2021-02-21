@@ -5,6 +5,9 @@
         <title>Cesis</title>
         <link href="css/reset.css" rel="stylesheet" type="text/css" >
 
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/4ca9a98a81.js"> </script>
+
         <!-- Main CSS -->
         <link href="css/style.css" rel="stylesheet" type="text/css">
 
@@ -260,60 +263,73 @@
                 <p> I build identities and experiences to elevate & empower organizations.</p>
             </div>
             
-        </section>
+        </section> -->
         
-        <section>
-            <div>
-                <img src="https://github.com/JanusDG/Web-Project/blob/main/First_page/Slider/notes.jpg" alt="">
+
+        <section class="slider">
+            <div class="slider-img-holder">
+                <img src="img/Slider/notes.jpg" alt="notes">
             </div>
-            <div>
+            <div class="slider-text-holder">
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-               ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+               ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p><br>
+               <p>
               Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
               cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-              totam rem aperiam, eaque ipsa quae ab. illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-             dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.
-              sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
-              aliquam quaerat voluptatem.</p>
+              totam rem aperiam, eaque ipsa quae ab. illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
             </div>
             <ul> 
-                <li><button>Work together</button></li>
-                <li><button>My services</button></li>
-                <li><button>Get in touch</button></li>
-            </ul>
-        </section>
-
-        <section>
-            <div><h2>Testimonials</h2>
-            <p>Why Cesis is one of the best WordPress Theme on ThemeForest. Let’s ask our customers.</p></div>
-            <ul>
-                <li>
-                    <i></i>
-                    <p>Really nice theme, and its so good to work with. 
-                    Also the customer support is very good and has fast reply and the theme often get updates.</p>
-                    <p>Sam Isbister</p>
-                    <p>Mass Impressions</p>
+                <li class="slider-active">
+                    <button>Work together</button>
                 </li>
                 <li>
-                    <i></i>
-                    <p>Really nice theme, and its so good to work with. 
-                    Also the customer support is very good and has fast reply and the theme often get updates.</p>
-                    <p>Jordan Flores</p>
-                    <p>Invision App</p>
+                    <button>My services</button>
                 </li>
                 <li>
-                    <i></i>
-                    <p>Really nice theme, and its so good to work with. 
-                    Also the customer support is very good and has fast reply and the theme often get updates.</p>
-                    <p>Grey Fox</p>
-                    <p>TheFox WordPress</p>
+                    <button>Get in touch</button>
                 </li>
             </ul>
         </section>
 
+        <section class="testimonials">
+            <div class="testimonials-main-text">
+                <h2 class="testimonials-headertext">Testimonials</h2>
+                <p class="testimonials-secondary-text">Why Cesis is one of the best WordPress Theme on ThemeForest. Let’s ask our customers.</p>
+            </div>
+            <ul id="testimonials-blocks">
+                <li>
+                    <div class="test-user-block">
+                        <i class="fas fa-user-circle" style="color:#83d1e5;font-size: 4.5em;"></i>
+                        <p id="testimonials-descr">Really nice theme, and its so good to work with.
+                        Also the customer support is very good and has fast reply and the theme often get updates.</p>
+                        <p id="testimonials-author">Sam Isbister</p>
+                        <p id="testimonials-prog">Mass Impressions</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="test-user-block">
+                        <i class="fas fa-user-circle" style="color:#8e7ce0;font-size: 4.5em;"></i>
+                        <p id="testimonials-descr">Really nice theme, and its so good to work with.
+                        Also the customer support is very good and has fast reply and the theme often get updates.</p>
+                        <p id="testimonials-author">Jordan Flores</p>
+                        <p id="testimonials-prog">Invision App</p>
+                    </div>
+                </li>
+                <li>
+                  <div class="test-user-block">
+                        <i class="fas fa-user-circle" style="color:#ec8b8e;font-size: 4.5em;"></i>
+                        <p id="testimonials-descr">Really nice theme, and its so good to work with.
+                        Also the customer support is very good and has fast reply and the theme often get updates.</p>
+                        <p id="testimonials-author">Grey Fox</p>
+                        <p id="testimonials-prog">TheFox WordPress</p>
+                  </div>
+                </li>
+            </ul>
+        </section>
+
+        <!--
         <section class="text-center">
             <ul>
                 <li><a><img src="https://github.com/JanusDG/Web-Project/blob/main/First_page/Logos/1.png"></a></li> 

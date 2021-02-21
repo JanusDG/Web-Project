@@ -367,7 +367,153 @@ a.button-header:hover, a.button-header:active {
   cursor: pointer;
 }
 
-
 /* END OF PORTFOLIO by Dmytro */
 
+/* SLIDER by Dmytro */
+
+.slider {
+  padding: 50px 6vw;
+}
+
+.slider-img-holder {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.slider-img-holder img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.slider-text-holder {
+  margin: 50px 0;
+  font-family: Poppins-Light;
+  color: #838788;
+  line-height: 30px;
+  width: 66vw;
+  display: inline-block;
+}
+
+.slider-text-holder p {
+  font-size: 15px;
+  padding: 0 50px;
+}
+
+.slider ul {
+  width: 21vw;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding: 90px 0;
+}
+
+.slider ul li {
+  margin: 15px 0;
+}
+
+.slider ul li button {
+  display: inline-block;
+  border: none;
+  font-family: Poppins-Regular;
+  background-color: white;
+  color: #838788;
+  font-size: 20px;
+}
+
+.slider ul li button:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.slider-active button {
+  color: black !important;
+}
+
+/* END OF SLIDER by Dmytro */
+
+/* TESTIMONIALS By Yarik */
+
+section.testimonials {
+  background-color: #f0fafd;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  line-height: 1.6;
+  color: #5c5e5e;
+}
+
+h2.testimonials-headertext {
+  font-family: Poppins-Semibold;
+  font-weight: 600;
+  font-size: 75px;
+  letter-spacing: -3px;
+  color: #2f3030;
+}
+
+p.testimonials-secondary-text {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+div.testimonials-main-text {
+  display: inline-block;
+  text-align: center;
+    margin: 50px auto;
+    width: 100%;
+}
+
+#testimonials-blocks {
+  display: inline-block;
+  margin: 20px 15vw 70px 15vw;
+  width: 70vw;
+}
+
+ul#testimonials-blocks li {
+  display: inline-block;
+  margin: 0 3% 0 0;
+  border-radius: 3%;
+  height: 100%;
+  width: 21vw;
+    background: white;
+  text-align: center;
+}
+
+.test-user-block > * {
+  margin: 5px 0;
+}
+
+ul#testimonials-blocks li:last-child {
+  margin: 0 0 0 0;
+}
+
+div.test-user-block {
+  margin: 15% 15% 15% 15%;
+}
+
+p#testimonials-descr {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+p#testimonials-author {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2f3030;
+}
+
+p#testimonials-prog {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+
+/* End of TESTIMONIALS section */
 
