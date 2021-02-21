@@ -1,3 +1,5 @@
+/* INTRO BY Khrystia */
+
 section.header {
 	background: url("img/Header/hello_its_me.jpg");
 	min-height: 100%;
@@ -36,6 +38,8 @@ a.button-header {
 a.button-header:hover, a.button-header:active {
 	background-color: #e7e7e7;
 }
+
+/* END OF HEADER */
 
 div.second-section-left {
 	position: absolute;
@@ -235,81 +239,6 @@ button.articles-button:hover, button.articles-button:active {
 }
 
 
-/* Third part of the first page style */
-
-article.third-part-article{
-}
-
-img.notes_left {
-}
-
-img.notes_right{
-}
-
-p.third-part-first-p{
-}
-
-h2.third-part-first-h2{
-}
-
-p.third-part-first-p-small{
-}
-
-
-div.third-part-div{
-}
-
-h2.third-part-div-h2{
-}
-
-p.third-part-div-p{
-}
-
-
-section.third-part-second-section{
-}
-
-img.back_mountines{
-}
-
-h2.third-part-second-h2{
-}
-
-p.third-part-second-p{
-}
-
-
-footer.footer{
-}
-
-h2.footer-first-div-h2{
-}
-
-p.footer-first-div-p{
-}
-
-ul.footer-first-div-ul{
-}
-
-li.footer-first-div-li{
-}
-
-div.footer-second-div{
-}
-
-p.footer-second-div-p{
-}
-
-form.footer-second-div-form{
-}
-
-input.footer-second-div-input{
-}
-
-button.footer-second-div-button{
-}
-
-
 /* Page 2 by Marichka  */
 
 section.body {
@@ -330,7 +259,7 @@ p {
   font-family: verdana;
   font-size: 20px;
   text-align: central;
-  font-weight: regular ;
+  font-weight: regular;
 }
 
 ul {
@@ -338,17 +267,10 @@ ul {
 
 }
 
-ul img {
-  padding: 5px;
-  width: 150px;
-  }
-
-column {
-    float: left;
-    width: 33.33%;
-    }
-
-
+.plans {
+  background-image: url("../img/Pricing/skyscraper.png");
+  background-size: 100%;
+}
 
 a.button-header {
     background-color: #6d45f6;
@@ -368,97 +290,7 @@ a.button-header:hover, a.button-header:active {
     background-color: white;
 }    
 
-section six .body {
-  background-color: white;
-} 
 
-img { src="Logo.png" class="w3-display-left w3-container" alt="Logo"
-}
-
-h3 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
-/* section seven */
-
-.plan_item {
-  text-align: center;
-}
-
-.plan_item h3 {
-  font-size: 30px;
-  
-}
-
-.text-center {
-  text-align: center;
-  font: Verdana;
-  font-size: 20px;
-}
-
-.plans {
-  background-image: url("../img/Pricing/skyscraper.png");
-  background-size: 100%;
-}
-
-ul {
-    list-style-type: square;
-}
-
-ul {
-    list-style-type: square;
-}
-
-ul {
-    list-style-type: square;
-}
-
-section eight h2 {
-  font-size: 300%;
-    height: 100px;
-    line-height: 100px;
-    text-align: central;
-    font-weight: bold;
-    color: white;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
-ul {
-  list-style-image: url( );
-}
-
-li {
-    list-style-type: square;
-}
-  
-ul {
-  list-style-image: url( );
-}
-
-li {
-    list-style-type: square;
-}
-
-ul {
-  list-style-image: url( );
-}
-
-li {
-    list-style-type: square;
-}
+/* End of Marichka section */
 
 
