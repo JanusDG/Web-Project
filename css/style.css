@@ -926,6 +926,10 @@ input.footer-second-div-input:active, input.footer-second-div-input:focus {
   border: 0;
 }
 
+input.footer-second-div-input::placeholder {
+  font-family: Poppins-Regular;
+}
+
 input.footer-second-div-input:focus::placeholder {
   color: transparent;
 }
@@ -947,8 +951,10 @@ button.footer-second-div-button {
 
 .effect-1 ~ .focus-border {
   position: absolute; 
-  bottom: 0; left: 0; 
-  width: 0; height: 2px; 
+  bottom: 0; 
+  left: 0; 
+  width: 0; 
+  height: 1px; 
   background-color: #7544FF; 
   transition: 0.4s;
 }
