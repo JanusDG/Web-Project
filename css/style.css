@@ -178,16 +178,18 @@ button:hover {
 
 /* Page 2 by Marichka  */
 
-section.background_price {
+.skyscraper {
   background-image: url("../img/Pricing/skyscraper.png");
+}
+
+section.background_price {
   width: 78vw;
   padding: 50px 11vw 100px 11vw;
 }
 
 .background_price h2 {
-    font-size: 300%;
-    height: 100px;
-    line-height: 100px;
+    font-size: 57px;
+    line-height: 62px;
     text-align: center;
     font-weight: bold;
     color: white;
@@ -799,3 +801,161 @@ ul.logos li img {
 }
 
 /* PARTNERS By Yaroslav */
+
+/* BUY by Dima */
+
+.mountains {
+  background-image: url("../img/CTA/back.png");
+  background-size: cover;
+  text-align: center;
+  padding: 130px 11vw 130px 11vw !important;
+}
+
+.mountains p {
+  margin-bottom: 0;
+}
+
+.mountains h2 {
+  width: 62%;
+  margin: 0 auto;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+
+/* END OF BUY */
+
+
+/* BEGINING of Footer by Dima */
+
+footer {
+  padding: 50px 10vw;
+}
+
+.footer-first-div {
+  width: 49vw;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-second-div {
+  width: 29vw;
+  display: inline-block;
+}
+
+.footer-first-div-h2 {
+  color: #2f3030;
+  font-size: 20px;
+  font-family: Poppins-Medium;
+  margin-bottom: 20px;
+}
+
+.footer-first-div-h2 a {
+  display: inline-block;
+}
+
+.footer-first-div-h2 a > * {
+  vertical-align: middle;
+}
+
+img.logo{
+  width: 70px;
+  margin-right: 20px;
+}
+
+p.footer-first-div-p {
+  font-size: 13px;
+  color: #363737;
+  text-align: left;
+  margin-bottom: 20px;
+}  
+ 
+ul.footer-first-div-ul {
+  float: left;
+  text-align: left;
+  font-size: 13px;
+  color: #363737;
+}
+
+.portfolio {
+  text-align: center;
+  margin: 50px 0;
+}
+
+ul.footer-first-div-ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul.footer-first-div-ul li a {
+  display: inline-block;
+  border: none;
+  font-family: Poppins-Regular;
+  background-color: white;
+}
+
+ul.footer-first-div-ul li a:hover {
+  cursor: pointer;
+  color: #7544FF;
+}
+
+ul.portolio-active a {
+  color: #838788 !important;
+}
+
+p.footer-second-div-p {
+  color: #2f3030;
+  font-size: 20px;
+  text-align: left;
+  font-family: Poppins-Medium;
+  margin-bottom: 20px;
+}
+form.footer-second-div-form {
+  position: relative;
+}
+
+input.footer-second-div-input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+input.footer-second-div-input:active, input.footer-second-div-input:focus {
+  outline: none;
+  border: 0;
+}
+
+input.footer-second-div-input:focus::placeholder {
+  color: transparent;
+}
+
+button.footer-second-div-button {
+  border: 0;
+  cursor: pointer;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.effect-1 {
+  border: 0; 
+  padding: 7px 0; 
+  border-bottom: 1px solid #7544FF;
+}
+
+.effect-1 ~ .focus-border {
+  position: absolute; 
+  bottom: 0; left: 0; 
+  width: 0; height: 2px; 
+  background-color: #7544FF; 
+  transition: 0.4s;
+}
+.effect-1:focus ~ .focus-border {
+  border: 0;
+  width: 100%; 
+  transition: 0.4s;
+}
+
+/* END of Footer by Dima */
